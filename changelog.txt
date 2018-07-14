@@ -1,0 +1,43 @@
+2015-05-07 RaidCDs v0.1.0
+initial release
+
+2015-05-07 RaidCDs v0.1.1
+* added Anti-Magic Zone
+
+2015-05-19 RaidCDs v1.0.0
+* tagged as Release
+* consider players who released their spirit as dead
+* speed-up in situations with many dying units (e.g. packs of adds in boss fights)
+
+2015-06-09 RaidCDs v1.0.1
+* removed the 1px high gaps for non available CDs
+* added an optional combat rez timer ("/raidcds showcr")
+* if you feel the need to rescan your group, use "/raidcds update"
+* 6.2-ready, fox and amplify will no longer be in the list once the patch is live
+* cooldowns longer than one minute now display as minutes:seconds (instead of just seconds)
+* make use of the comment section to report any bugs/suggestions
+
+2015-10-01 RaidCDs v1.0.2
+* added Healing Tide Totem (thx and Nexi)
+
+2015-10-01 RaidCDs v1.0.3
+* added charges to talented Spirit Link Totem (thx Invi)
+
+2016-07-19 RaidCDs v1.0.4
+* Legion ready
+* use quick fix update of LibGroupInSpecT r79
+* TOC bump
+
+2016-07-29 RaidCDs v1.0.5
+* stampeding roar is feral and guardian exclusive now
+* talented Tranquility has 120sec CD
+
+2016-08-18 RaidCDs v1.0.6
+* talented stampeding roar (guardian) has 60sec CD
+
+2016-12-16 RaidCDs v1.0.7
+* replaced Smoke Bomb with Darkness
+
+2018-07-14 RaidCDs v1.0.8
+* update to LibGroupInSpecT r92
+
