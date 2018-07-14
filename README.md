@@ -1,8 +1,8 @@
 # RaidCDs
 
-Shows available Raid CDs and their remaining cooldown. Similar to [[https://github.com/lqnrd/TankCDs|TankCDs]], but shows raid-wide damage mitigation and utility CDs instead of personal.
+Shows available Raid CDs and their remaining cooldown. Similar to [TankCDs](https://github.com/lqnrd/TankCDs), but shows raid-wide damage mitigation and utility CDs instead of personal.
 
-Makes use of [[https://www.wowace.com/projects/libgroupinspect/|LibGroupInSpecT]] functions to scan group member's specs and talents.
+Makes use of [LibGroupInSpecT](https://www.wowace.com/projects/libgroupinspect/) functions to scan group member's specs and talents.
 
 ![screenshot](https://q-nerd.de/src/q1430950560141lk.raidCDs.jpg)
 
