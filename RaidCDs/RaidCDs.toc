@@ -1,7 +1,7 @@
-## Interface: 70000
+## Interface: 80000
 ## Author: Ingenium@EU-Blackmoore
 ## Title: RaidCDs
-## Version: 1.0.8
+## Version: 1.0.9
 ## SavedVariablesPerCharacter: RaidCDsOptions
 ## Notes: Displays external Raid CDs
 ## X-Embeds: LibGroupInSpecT-1.1

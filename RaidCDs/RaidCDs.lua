@@ -563,10 +563,10 @@ function frameEvents:PLAYER_ENTERING_WORLD(...)
   frame:RegisterEvent("ENCOUNTER_START")
   frame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 end
-function frameEvents:COMBAT_LOG_EVENT_UNFILTERED(...)
-  local timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags, sourceFlags2, destGUID, destName, destFlags, destFlags2 = select(1, ...)
+function frameEvents:COMBAT_LOG_EVENT_UNFILTERED()
+  local timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags, sourceFlags2, destGUID, destName, destFlags, destFlags2 = CombatLogGetCurrentEventInfo()
   if event == "SPELL_CAST_SUCCESS" then
-    local spellId, spellName, spellSchool = select(12, ...) --from prefix SPELL
+    local spellId, spellName, spellSchool = select(12, CombatLogGetCurrentEventInfo()) --from prefix SPELL
     if spellIDs[spellId] then
       if spellIDs[spellId].aka then
         self:startCD(sourceGUID, spellIDs[spellId].aka) --pretent the caster used a different spellID (e.g. for the different forms of a druid's Stampeding Roar)
